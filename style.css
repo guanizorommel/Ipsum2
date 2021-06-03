@@ -1,0 +1,18 @@
+
+/*Colors
+Dark : #182035
+DarkBlue: #152242
+Blue Font and  Button: #0F7FFF;*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #182035;
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0 auto;
+}
