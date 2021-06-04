@@ -2,7 +2,10 @@
 /*Colors
 Dark : #182035
 DarkBlue: #152242
-Blue Font and  Button: #0F7FFF;*/
+Blue Font and  Button: #0F7FFF;
+Gray Paragraph Text:
+Card price bg: #0d162c */
+
 
 * {
     box-sizing: border-box;
@@ -16,3 +19,142 @@ Blue Font and  Button: #0F7FFF;*/
     min-height: 100vh;
     margin: 0 auto;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.herotitle {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: .5em 0em;
+}
+
+.herotitle-emphasize {
+    color: #0F7FFF;
+}
+
+.herotext {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: gray;
+}
+
+
+/*cards Css */
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    padding: 2em 0em;
+}
+
+
+.col {
+    width: 30%;
+}
+
+.col-container {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.col-container-box-left {
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 5px;
+    border-right: none;
+    border-left: 2px solid gray;
+}
+
+.col-container-box-right {
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 5px;
+    border-left: none;
+    border-right: 2px solid gray;
+}
+
+
+
+.content1 {
+    background-color: #0d162c;
+    padding: 2em 2em;
+}
+
+
+.content1 h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+}
+
+.price {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.price:before {
+    content: '';
+}
+
+.content2 {
+    background-color: #152242;
+    padding: 1.5em 2em;
+}
+
+.content2-container {
+    display: flex;
+    align-items: center;
+    padding: .3em 0em;
+}
+
+.fa {
+    color: green;
+}
+
+.content-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-left: 20px;
+    color: gray;
+}
+
+.btncontainer {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0em;
+    /* border: 3px solid green; */
+}
+
+.btn-gray {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 5px;
+    padding: .5em 3em;
+    background-color: grey;
+    width: 100%; 
+}
+
+.col-center {
+    width: 40%;
+    border: 3px solid;
+    border-color: #0F7FFF;
+    border-radius: 5px;
+}
+
+
