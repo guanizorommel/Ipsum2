@@ -23,6 +23,7 @@ Card price bg: #0d162c */
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 2em 0em;
 }
 
 .herotitle {
@@ -200,6 +201,7 @@ Card price bg: #0d162c */
 
 .content1-center {
     padding: 1em 2em;
+    background-color: #0d162c
 }
 
 .content1-center-text {
@@ -281,14 +283,22 @@ Card price bg: #0d162c */
 
 /*Accordion starts here */
 
-.accordion {
-    max-width: 80%;
 
+.accordion {
+    max-width: 100%;
+    display: none;
+    
 }
 
 .accordionbox {
     position: relative;
     margin: 10px 20px;
+}
+
+.accordionlabel {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .accordionlabel {
@@ -318,10 +328,19 @@ Card price bg: #0d162c */
 }
 
 .accordionbox.active .accordioncontent {
-    height: 150px;
-    padding: 10px;
+    height: auto;
 }
 
+/*media query*/
 
+@media (max-width:990px) {
 
+    .row {
+        display:none;
+    }
 
+    .accordion {
+        display: block;
+    }
+
+}
