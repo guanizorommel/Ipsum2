@@ -116,12 +116,41 @@
 
         </div>
 
+        <div class="accordion">
+            <div class="accordionbox">
+                <div class="accordionlabel">Accordion Basic</div>
+
+                <div class="accordioncontent">
+
+                    <div class="accordionprice">
+                        <h2></h2>Startup</h2>
+                        <p>399</p>
+                    </div>
+                    <div class="accordionfeatures">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p>Get started with messaging</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
 
 
 
 
 
     </main>
+
+    <script>
+        const accordion = document.getElementsByClassName('accordionbox');
+
+        for (i = 0; i<accordion.length; i++) {
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active')
+            })
+        }
+    </script>
     
 </body>
 </html>
